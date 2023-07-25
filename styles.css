@@ -1,16 +1,19 @@
 .heading{
-    color: rgb(255, 230, 0);
+    color:firebrick;
     font-size: 50px;
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 10px solid purple;
     padding-bottom: 10px;
     justify-content: center;
-    background-color: rgb(70, 192, 80);
+    background-color:darksalmon;
     margin-bottom: 10px;
 }
 body{
     background-color: bisque;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .heading-container{
@@ -25,27 +28,21 @@ body{
 .item-1{
     margin-bottom: 10px;
 }
-
-.descp{
-    font-size: 22px;
-    color: rgb(10, 7, 111);
-    font-weight: bold;
-    display: inline-block;
-   background-color: cadetblue;
-}
-
-.Ingredient{
-    margin-top: 30px;
-}
 .image-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
 .image-one{
-    width: 400px;
+    width: 300px;
     display: flex;
-    height: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.image-two, .image-three{
+    width:330px;
+    display: flex;
     margin-bottom: 10px;
 }
 
@@ -85,4 +82,16 @@ body{
 }
 .link-one, .link-two, .link-three, .link-four, .link-five{
     margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.footer-one, .footer-two, .footer-three{
+    display: flex;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
